@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Pizza Shop</title>
+</head>
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="nav">
+            <div class="navbar">
+                <div class="navbar__logo">
+                    <a class="navbar__logo--pizza" href="#">Pizza</a>
+                    <a class="navbar__logo--shop" href="#">Shop</a>
+                </div>
+                <div class="navbar__data">
+                    <h4 class="navbar__data--address"><i class="fa-solid fa-location-dot"></i>Турусбекова 109\3</h4>
+                    <h4 class="navbar__data--phone"><i class="fa-solid fa-phone"></i>+996 502 07 17 73</h4>
+                </div>
+            </div>
+            <nav class="nav__link">
+                <div class="nav__link--menu">
+                    <a class="nav__link--menu__item" href="#"><i class="fa-solid fa-cloud-sun"></i></a>
+                    <a class="nav__link--menu__item" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="nav__link--menu__item" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a class="nav__link--menu__item" href="#"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="solid"></div>
+        <div class="header">
+            <a href="#" class="header__food">Пицца</a>
+            <a href="#" class="header__food">Суши</a>
+            <a href="#" class="header__food">Комбо</a>
+            <a href="#" class="header__food">Десерты</a>
+            <a href="#" class="header__food">Закуски</a>
+        </div>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/Rectangle%204.png" alt=""></div>
+            <div class="swiper-slide"><img src="./img/Rectangle%204.png" alt=""></div>
+            <div class="swiper-slide"><img src="./img/Rectangle%204.png" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</header>
+<section id="hero">
+    <div class="hero">
+        <div class="hero__img">
+            <img src="./img/Rectangle%205.png" alt="">
+            <img src="./img/Rectangle%206.png" alt="">
+        </div>
+        <img src="./img/Rectangle%207.png" alt="">
+        <div class="hero__order">
+            <h1 class="hero__order--theme">Часто заказывают:</h1>
+            <div class="hero__order--food">
+                <a href="#" class="hero__order--food__item"> <img src="./img/Rectangle%209.png" alt="">Пицца</a>
+                <a href="#" class="hero__order--food__item"> <img src="./img/Rectangle%209.2.png" alt="">Роллы</a>
+                <a href="#" class="hero__order--food__item"> <img src="./img/Rectangle%209.3.png" alt="">Комбо 999
+                    сом</a>
+                <a href="#" class="hero__order--food__item"> <img src="./img/Rectangle%209.4.png" alt="">Каротошка
+                    фри</a>
+                <a href="#" class="hero__order--food__item"> <img src="./img/Rectangle%209.5.png" alt="">Десерт
+                    творожный</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="best">
+    <div class="container">
+        <div class="best">
+            <h1 class="best__theme">Пицца:</h1>
+            <div class="best__block">
+                <div class="best__block--column">
+                    <h4 class="best__block--column__new">NEW</h4>
+                    <div class="best__block--column__img">
+                        <img src="./img/Rectangle%2072.png" alt="">
+                    </div>
+                    <div class="best__block--column__text">
+                        <h3 class="best__block--column__text--theme">Папа Микс Рэнч </h3>
+                        <h4 class="best__block--column__text--star"><i class="fa-solid fa-star"></i>(4.5)</h4>
+                        <p class="best__block--column__text--description">Четыре любимых пиццы в одной: Цыпленок Рэнч,
+                            Ветчина и грибы, Четыре Сыра, Спайси Рэнч</p>
+                        <div class="best__block--column__text--foot">
+                            <h3 class="best__block--column__text--foot__price" >$115.00</h3>
+                            <i class="fa-solid fa-heart like"></i>
+                            <i class="fa-solid fa-cart-shopping shop"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+
+</body>
+</html>
+<!--<a href="https://www.youtube.com/watch?v=T9HBtVBk0As"   data-fancybox class="hero-video__btn">   </a>-->

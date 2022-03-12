@@ -1,0 +1,57 @@
+$BgColor: #000000;
+$Cl: #FF6A6A;
+$BgCl: #FA963A;
+$ffM: "Montserrat", sans-serif;
+$ffR: "Roboto", sans-serif;
+
+%BgFood {
+  width: 141px;
+  height: 33px;
+  background: #ffffff;
+  border-radius: 7px;
+}
+
+@mixin SizeFood {
+  font-family: $ffM;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FF7A00;
+}
+
+%Orfood {
+  width: 170px;
+  height: 51px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+@mixin HeroFood {
+  font-family:$ffR ;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  padding: 5px 5px;
+}
+%theme{
+  font-family: $ffR;
+  font-weight: 500;
+  font-size: 30px;
+  color: $BgColor;
+}
+%BlockBg{
+  width: 230px;
+  height: 288px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+%ImgBg{
+  width: 193.62px;
+  height: 149px;
+  background: #B0AAD3;
+  border-radius: 28px;
+}
+@mixin BestTheme{
+  font-family: $ffR;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
